@@ -667,3 +667,106 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+
+/* CONTACT SECTION */
+.contact-section {
+  padding: 100px 0;
+  background: radial-gradient(circle at top, #05053d, #020024 70%);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+/* PILL */
+.contact-pill {
+  display: inline-block;
+  padding: 6px 20px;
+  border: 2px solid #ffc400;
+  border-radius: 20px;
+  color: #ffc400;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+/* GRID */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+/* LEFT */
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.contact-item .label {
+  color: #ffc400;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.contact-item a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+/* RIGHT */
+.contact-text h2 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.contact-text span {
+  color: #ffc400;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-container {
+    padding: 0 40px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .contact-text h2 {
+    font-size: 40px;
+  }
+}

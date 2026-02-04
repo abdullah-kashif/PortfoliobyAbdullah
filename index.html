@@ -2,498 +2,631 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <nav class="main_nav">
-        <ul class="nav_ul">
-            <li class="active">Home</li>
-            <li>About Me</li>
-            <li>Skill</li>
-            <li>Background</li>
-            <li>Projects</li>
-            <li>Contact</li>
+  <nav class="main_nav">
+    <ul class="nav_ul">
+      <li class="active">Home</li>
+      <li>About Me</li>
+      <li>Skill</li>
+      <li>Background</li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <!-- Intro Section -->
+  <section class="section_1">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-left">
+
+      <!-- PILL -->
+      <div class="pill">
+        <span>DATA ANALYST</span> PORTFOLIO
+      </div>
+
+      <!-- NAME -->
+      <h1>
+        MUHAMMAD <br>
+        <span class="highlight">ABDULLAH</span>
+      </h1>
+
+      <!-- SUBTITLE -->
+      <p class="subtitle">
+        I help people finding
+        <span style="color:#ffc400; font-size: 20px;">
+          insights
+        </span><br>
+        through
+        <span style="color:#ffc400; font-size: 20px;">
+          data
+        </span>
+      </p>
+
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="hero-right">
+      <div class="image-circle">
+        <img src="images/download.jfif" alt="Profile">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="about-section">
+
+    <!-- TOP LABEL -->
+    <div class="about-pill">About Me</div>
+
+    <div class="about-content">
+
+  <!-- LEFT TEXT (Title) -->
+  <div class="about-left">
+    <h2>Hello,<br>I'm <span>ABDULLAH</span>!</h2>
+  </div>
+
+  <!-- RIGHT TEXT (Description + Actions) -->
+  <div class="about-right">
+
+    <!-- About paragraph (KEEPING YOUR ORIGINAL CONTENT) -->
+    <p>
+      <span class="highlight">Data Reporting / Analyst</span> and
+      <span class="highlight">Certified Banking Generalist</span> with a
+      proven track record in various analytical roles, showcasing expertise
+      in end-to-end business processes within the Banking / Financial Industry.
+      Proficient in <span class="highlight">SQL, Python, Google Sheets,
+        Microsoft Excel, Statistics, Tableau</span>, and
+      <span class="highlight">Google Looker Studio</span> for comprehensive
+      data analysis and visualization. Comfortable with end-to-end data
+      analysis, data processing, dashboard / daily reporting creation, and
+      presenting actionable insights with effective communication and
+      engaging story-telling skills.
+    </p>
+
+    <!-- ACTIONS (Icons + Buttons)
+         IMPORTANT: Only keep ONE style: all icons must be <a class="icon-circle"> ... </a>
+         No extra divs like .contact-item inside here, because it breaks flex layout.
+    -->
+    <div class="about-actions">
+
+      <!-- LinkedIn Icon (Text-based "in" like your design) -->
+      <a
+        class="icon-circle"
+        href="https://www.linkedin.com/feed/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        in
+      </a>
+
+      <!-- WhatsApp Icon (Your SVG, clickable) -->
+      <a
+        class="icon-circle"
+        href="https://wa.me/923452469969"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp"
+      >
+        <!-- WhatsApp SVG -->
+        <svg width="22" height="22" viewBox="0 0 32 32" fill="#fff" aria-hidden="true">
+          <path
+            d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7.1L5 29l7-1.8c2 1.1 4.3 1.8 6.9 1.8c6.6 0 12-5.4 12-12S22.6 3 16 3zm6.7 16.5c-.3.9-1.7 1.7-2.4 1.8c-.6.1-1.3.2-4.4-1c-3.7-1.5-6-5.3-6.2-5.5c-.2-.3-1.5-2-1.5-3.9c0-1.8.9-2.7 1.3-3.1c.3-.3.7-.4 1-.4h.7c.2 0 .5-.1.7.5c.3.7 1 2.5 1.1 2.7c.1.2.1.5 0 .7c-.1.3-.2.5-.4.8c-.2.3-.4.5-.6.8c-.2.3-.4.6-.1 1.1c.3.5 1.3 2.2 2.8 3.5c1.9 1.7 3.5 2.2 4 2.5c.5.3.8.2 1.1-.1c.3-.4 1.3-1.5 1.6-2c.3-.5.6-.4 1-.2c.4.2 2.5 1.2 2.9 1.4c.4.2.7.3.8.4c.1.2.1 1-.2 1.9z"
+          />
+        </svg>
+      </a>
+
+      <!-- Email Icon (Circle Envelope style)
+           Using a cleaner envelope path that looks like your screenshot
+      -->
+      <a
+        class="icon-circle"
+        href="mailto:abdullahkaashif0@gmail.com"
+        aria-label="Email"
+      >
+        <!-- Email SVG -->
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 6h16v12H4V6z" stroke="#fff" stroke-width="2"/>
+          <path d="M4 7l8 6 8-6" stroke="#fff" stroke-width="2" fill="none"/>
+        </svg>
+      </a>
+
+      <!-- Button: Projects -->
+      <a class="btn-outline" href="#projects">
+        Projects
+      </a>
+
+      <!-- Button: Download CV -->
+      <a class="btn-primary" href="assets/Abdullah-CV.pdf" download>
+        Download CV
+      </a>
+
+    </div>
+  </div>
+
+</div>
+
+  </section>
+
+
+  <!-- SKILLS SECTION -->
+  <section class="skills-section">
+
+    <!-- TOP PILL -->
+    <div class="skills-pill">Technical Skills</div>
+
+    <!-- GRID -->
+    <div class="skills-grid">
+
+      <!-- COLUMN 1 -->
+      <div class="skill-col">
+        <h3>
+          <span class="highlight">Programming</span><br>
+          Languages
+        </h3>
+
+        <div class="skill-item">
+          <div class="icon">SQL</div>
+          <p>SQL</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">Py</div>
+          <p>Python</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">HT</div>
+          <p>HTML</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">CS</div>
+          <p>CSS</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">JS</div>
+          <p>JavaScript</p>
+        </div>
+
+
+
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="skill-col bordered">
+        <h3>
+          <span class="highlight">Data Analytic</span><br>
+          Tools
+        </h3>
+
+        <div class="skill-item">
+          <div class="icon">XL</div>
+          <p>Microsoft Excel</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">GS</div>
+          <p>Google Sheets</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">n8n</div>
+          <p>N8N Automatiom</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">VS</div>
+          <p>Visual Code Studio</p>
+        </div>
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="skill-col bordered">
+        <h3>
+          <span class="highlight">Data Visualization</span><br>
+          Tools
+        </h3>
+
+        <div class="skill-item">
+          <div class="icon">TB</div>
+          <p>Tableau</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="icon">BI</div>
+          <p>Power BI</p>
+        </div>
+      </div>
+
+      <!-- COLUMN 4 -->
+      <div class="skill-col bordered">
+        <h3>
+          <span class="highlight">Data Analytic</span><br>
+          Methods
+        </h3>
+
+        <ul class="method-list">
+          <li>EDA</li>
+          <li>Segmentation / Clustering</li>
+          <li>Cohort</li>
+          <li>Linear Regression</li>
+          <li>Logistic Regression</li>
+          <li>Statistic</li>
+          <li>A/B Testing</li>
+          <li>ANOVA</li>
+          <li>(Post-Hoc) T-Test</li>
         </ul>
-    </nav>
+      </div>
 
-    <!-- Intro Section -->
-    <section class="section_1">
+    </div>
+  </section>
 
-        <!-- LEFT CONTENT -->
-        <div class="hero-left">
+  <!-- EDUCATION & EXPERIENCE SECTION -->
+  <section class="edu-exp-section">
 
-            <!-- PILL -->
-            <div class="pill">
-                <span>DATA ANALYST</span> PORTFOLIO
+    <!-- TOP PILL (FULL WIDTH, LEFT ALIGNED) -->
+    <div class="edu-exp-pill">Education & Experience Background</div>
+
+    <!-- CENTERED CONTENT -->
+    <div class="edu-exp-container">
+      <div class="edu-exp-grid">
+
+        <!-- EDUCATION -->
+        <div class="edu-col">
+          <h2>EDUCATION</h2>
+
+          <div class="edu-item">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+              </svg>
             </div>
-
-            <!-- NAME -->
-            <h1>
-                MUHAMMAD <br>
-                <span class="highlight">ABDULLAH</span>
-            </h1>
-
-            <!-- SUBTITLE -->
-            <p class="subtitle">
-                I help people finding
-                <span style="color:#ffc400; font-size: 20px;">
-                    insights
-                </span><br>
-                through
-                <span style="color:#ffc400; font-size: 20px;">
-                    data
-                </span>
-            </p>
-
-
-        </div>
-
-        <!-- RIGHT IMAGE -->
-        <div class="hero-right">
-            <div class="image-circle">
-                <img src="images/download.jfif" alt="Profile">
+            <div>
+              <h4>RevoU</h4>
+              <p><strong>Full-Stack Data Analytics (2023)</strong></p>
+              <p>Grade: 100 / 100</p>
             </div>
-        </div>
-    </section>
-
-
-
-    <section class="about-section">
-
-        <!-- TOP LABEL -->
-        <div class="about-pill">About Me</div>
-
-        <div class="about-content">
-
-            <!-- LEFT TEXT -->
-            <div class="about-left">
-                <h2>Hello,<br>I'm <span>ABDULLAH</span>!</h2>
-            </div>
-
-            <!-- RIGHT TEXT -->
-            <div class="about-right">
-                <p>
-                    <span class="highlight">Data Reporting / Analyst</span> and
-                    <span class="highlight">Certified Banking Generalist</span> with a
-                    proven track record in various analytical roles, showcasing expertise
-                    in end-to-end business processes within the Banking / Financial Industry.
-                    Proficient in <span class="highlight">SQL, Python, Google Sheets,
-                        Microsoft Excel, Statistics, Tableau</span>, and
-                    <span class="highlight">Google Looker Studio</span> for comprehensive
-                    data analysis and visualization. Comfortable with end-to-end data
-                    analysis, data processing, dashboard / daily reporting creation, and
-                    presenting actionable insights with effective communication and
-                    engaging story-telling skills.
-                </p>
-
-                <!-- ACTIONS -->
-                <div class="about-actions">
-
-                    <a class="icon-circle">in</a>
-                    <a class="icon-circle">
-                        <svg width="22" height="22" viewBox="0 0 32 32" fill="#fff">
-                            <path
-                                d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7.1L5 29l7-1.8c2 1.1 4.3 1.8 6.9 1.8c6.6 0 12-5.4 12-12S22.6 3 16 3zm6.7 16.5c-.3.9-1.7 1.7-2.4 1.8c-.6.1-1.3.2-4.4-1c-3.7-1.5-6-5.3-6.2-5.5c-.2-.3-1.5-2-1.5-3.9c0-1.8.9-2.7 1.3-3.1c.3-.3.7-.4 1-.4h.7c.2 0 .5-.1.7.5c.3.7 1 2.5 1.1 2.7c.1.2.1.5 0 .7c-.1.3-.2.5-.4.8c-.2.3-.4.5-.6.8c-.2.3-.4.6-.1 1.1c.3.5 1.3 2.2 2.8 3.5c1.9 1.7 3.5 2.2 4 2.5c.5.3.8.2 1.1-.1c.3-.4 1.3-1.5 1.6-2c.3-.5.6-.4 1-.2c.4.2 2.5 1.2 2.9 1.4c.4.2.7.3.8.4c.1.2.1 1-.2 1.9z" />
-                        </svg>
-                    </a>
-
-                    <a class="icon-circle">✉</a>
-
-                    <a class="btn-outline">Projects</a>
-                    <a class="btn-primary">Download CV</a>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- SKILLS SECTION -->
-    <section class="skills-section">
-
-        <!-- TOP PILL -->
-        <div class="skills-pill">Technical Skills</div>
-
-        <!-- GRID -->
-        <div class="skills-grid">
-
-            <!-- COLUMN 1 -->
-            <div class="skill-col">
-                <h3>
-                    <span class="highlight">Programming</span><br>
-                    Languages
-                </h3>
-
-                <div class="skill-item">
-                    <div class="icon">SQL</div>
-                    <p>SQL</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">Py</div>
-                    <p>Python</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">HT</div>
-                    <p>HTML</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">CS</div>
-                    <p>CSS</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">JS</div>
-                    <p>JavaScript</p>
-                </div>
-
-
-
-            </div>
-
-            <!-- COLUMN 2 -->
-            <div class="skill-col bordered">
-                <h3>
-                    <span class="highlight">Data Analytic</span><br>
-                    Tools
-                </h3>
-
-                <div class="skill-item">
-                    <div class="icon">XL</div>
-                    <p>Microsoft Excel</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">GS</div>
-                    <p>Google Sheets</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">n8n</div>
-                    <p>N8N Automatiom</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">VS</div>
-                    <p>Visual Code Studio</p>
-                </div>
-            </div>
-
-            <!-- COLUMN 3 -->
-            <div class="skill-col bordered">
-                <h3>
-                    <span class="highlight">Data Visualization</span><br>
-                    Tools
-                </h3>
-
-                <div class="skill-item">
-                    <div class="icon">TB</div>
-                    <p>Tableau</p>
-                </div>
-
-                <div class="skill-item">
-                    <div class="icon">BI</div>
-                    <p>Power BI</p>
-                </div>
-            </div>
-
-            <!-- COLUMN 4 -->
-            <div class="skill-col bordered">
-                <h3>
-                    <span class="highlight">Data Analytic</span><br>
-                    Methods
-                </h3>
-
-                <ul class="method-list">
-                    <li>EDA</li>
-                    <li>Segmentation / Clustering</li>
-                    <li>Cohort</li>
-                    <li>Linear Regression</li>
-                    <li>Logistic Regression</li>
-                    <li>Statistic</li>
-                    <li>A/B Testing</li>
-                    <li>ANOVA</li>
-                    <li>(Post-Hoc) T-Test</li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-<!-- EDUCATION & EXPERIENCE SECTION -->
-<section class="edu-exp-section">
-
-  <!-- TOP PILL (FULL WIDTH, LEFT ALIGNED) -->
-  <div class="edu-exp-pill">Education & Experience Background</div>
-
-  <!-- CENTERED CONTENT -->
-  <div class="edu-exp-container">
-    <div class="edu-exp-grid">
-
-      <!-- EDUCATION -->
-      <div class="edu-col">
-        <h2>EDUCATION</h2>
-
-        <div class="edu-item">
-          <div class="edu-icon">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
           </div>
-          <div>
-            <h4>RevoU</h4>
-            <p><strong>Full-Stack Data Analytics (2023)</strong></p>
-            <p>Grade: 100 / 100</p>
+
+          <div class="edu-item">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24">
+                <rect x="4" y="4" width="16" height="16" />
+              </svg>
+            </div>
+            <div>
+              <h4>LPPI</h4>
+              <p><strong>Bank BTN Officer Development Program (2017)</strong></p>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 3L2 8l10 5 10-5-10-5z" />
+                <path d="M4 10v6c0 1 4 3 8 3s8-2 8-3v-6" />
+              </svg>
+            </div>
+            <div>
+              <h4>Universitas Brawijaya</h4>
+              <p><strong>Architecture Engineering (2011)</strong></p>
+              <p>GPA: 3.17 / 4.00</p>
+            </div>
           </div>
         </div>
 
-        <div class="edu-item">
-          <div class="edu-icon">
-            <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16"/></svg>
+        <!-- DIVIDER -->
+        <div class="edu-divider"></div>
+
+        <!-- EXPERIENCE -->
+        <div class="edu-col">
+          <h2>EXPERIENCE</h2>
+
+          <div class="edu-item">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7h20L12 2z" />
+                <path d="M4 9h2v9H4zM9 9h2v9H9zM14 9h2v9h-2zM19 9h2v9h-2z" />
+              </svg>
+            </div>
+            <div>
+              <h4>Bank Jago</h4>
+              <p><strong>AML Reporting Specialist</strong> (2024 – Present)</p>
+            </div>
           </div>
-          <div>
-            <h4>LPPI</h4>
-            <p><strong>Bank BTN Officer Development Program (2017)</strong></p>
+
+          <div class="edu-item">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 22c0-4 4-6 8-6s8 2 8 6" />
+              </svg>
+            </div>
+            <div>
+              <h4>RevoU</h4>
+              <p><strong>Data Analyst Mentor</strong> (2024)</p>
+              <p><strong>Data Analyst Associate</strong> (2023–2024)</p>
+            </div>
           </div>
+
+          <div class="edu-item">
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 12l9-9 9 9" />
+                <path d="M5 10v10h14V10" />
+              </svg>
+            </div>
+            <div>
+              <h4>Bank Tabungan Negara (BTN)</h4>
+              <p>Loan Monitoring & Restructuring Analyst</p>
+              <p>Commercial Asset Management Analyst</p>
+              <p>Commercial Loan Analyst</p>
+            </div>
+          </div>
+
         </div>
 
-        <div class="edu-item">
-          <div class="edu-icon">
-            <svg viewBox="0 0 24 24">
-              <path d="M12 3L2 8l10 5 10-5-10-5z"/>
-              <path d="M4 10v6c0 1 4 3 8 3s8-2 8-3v-6"/>
-            </svg>
-          </div>
-          <div>
-            <h4>Universitas Brawijaya</h4>
-            <p><strong>Architecture Engineering (2011)</strong></p>
-            <p>GPA: 3.17 / 4.00</p>
-          </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PROJECTS -->
+
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects-section">
+
+    <!-- TOP PILL -->
+    <div class="projects-pill">Notable Projects</div>
+
+    <!-- PROJECT CARD -->
+    <div class="project-card">
+
+      <!-- PROJECT HEADER -->
+      <div class="project-header">
+        <div class="project-number">01</div>
+        <div>
+          <h2>SALES PERFORMANCE DASHBOARD</h2>
+          <h3>POWER BI – BUSINESS INTELLIGENCE</h3>
         </div>
       </div>
 
-      <!-- DIVIDER -->
-      <div class="edu-divider"></div>
+      <!-- PROJECT CONTENT -->
+      <div class="project-content">
 
-      <!-- EXPERIENCE -->
-      <div class="edu-col">
-        <h2>EXPERIENCE</h2>
+        <!-- IMAGES -->
+        <div class="project-images">
+          <img src="assets/powerbi-dashboard-1.png" alt="Power BI Dashboard Overview">
+          <img src="assets/powerbi-dashboard-2.png" alt="Power BI Sales Map">
+        </div>
 
-        <div class="edu-item">
-          <div class="edu-icon">
-            <svg viewBox="0 0 24 24">
-              <path d="M12 2L2 7h20L12 2z"/>
-              <path d="M4 9h2v9H4zM9 9h2v9H9zM14 9h2v9h-2zM19 9h2v9h-2z"/>
-            </svg>
-          </div>
-          <div>
-            <h4>Bank Jago</h4>
-            <p><strong>AML Reporting Specialist</strong> (2024 – Present)</p>
+        <!-- DESCRIPTION -->
+        <div class="project-desc">
+          <p>
+            Built an end-to-end <span>Power BI Sales Performance Dashboard</span> to
+            analyze revenue, profit, and regional growth. The dashboard enables
+            stakeholders to identify <span>high-performing regions</span>,
+            <span>sales trends</span>, and <span>profitability drivers</span>.
+          </p>
+
+          <p>
+            Implemented dynamic KPIs, time intelligence using DAX, and interactive
+            drill-downs to support <span>data-driven business decisions</span>.
+          </p>
+
+          <p class="tools">
+            <strong>Tools:</strong> Power BI, DAX, SQL<br>
+            <strong>Analysis:</strong> KPI Analysis, Trend Analysis, Regional Performance
+          </p>
+
+          <!-- BUTTONS -->
+          <div class="project-buttons">
+            <a href="#" class="btn-outline">Power BI Dashboard</a>
+            <a href="#" class="btn-outline">Dataset</a>
+            <a href="#" class="btn-outline">Case Study</a>
           </div>
         </div>
 
-        <div class="edu-item">
-          <div class="edu-icon">
-            <svg viewBox="0 0 24 24">
-              <circle cx="12" cy="8" r="4"/>
-              <path d="M4 22c0-4 4-6 8-6s8 2 8 6"/>
-            </svg>
-          </div>
-          <div>
-            <h4>RevoU</h4>
-            <p><strong>Data Analyst Mentor</strong> (2024)</p>
-            <p><strong>Data Analyst Associate</strong> (2023–2024)</p>
+      </div>
+    </div>
+
+    <!-- PROJECT CARD -->
+    <div class="project-card">
+
+      <div class="project-header">
+        <div class="project-number">02</div>
+        <div>
+          <h2>LEAD AUTOMATION WORKFLOW</h2>
+          <h3>N8N – BUSINESS PROCESS AUTOMATION</h3>
+        </div>
+      </div>
+
+      <div class="project-content">
+
+        <div class="project-images">
+          <img src="assets/n8n-workflow.png" alt="n8n Automation Workflow">
+          <img src="assets/n8n-flow-diagram.png" alt="n8n Process Diagram">
+        </div>
+
+        <div class="project-desc">
+          <p>
+            Designed an <span>end-to-end automation workflow</span> using n8n to
+            capture incoming leads via webhook, validate data, store records in
+            Google Sheets, and send automated email notifications.
+          </p>
+
+          <p>
+            This automation reduced <span>manual processing time</span> and improved
+            data accuracy while enabling <span>real-time lead tracking</span>.
+          </p>
+
+          <p class="tools">
+            <strong>Tools:</strong> n8n, Webhooks, Google Sheets, Gmail API<br>
+            <strong>Automation:</strong> Data Validation, Notifications, Workflow Orchestration
+          </p>
+
+          <div class="project-buttons">
+            <a href="#" class="btn-outline">Workflow Diagram</a>
+            <a href="#" class="btn-outline">GitHub (JSON)</a>
+            <a href="#" class="btn-outline">Demo Video</a>
           </div>
         </div>
 
-        <div class="edu-item">
-          <div class="edu-icon">
-            <svg viewBox="0 0 24 24">
-              <path d="M3 12l9-9 9 9"/>
-              <path d="M5 10v10h14V10"/>
-            </svg>
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <!-- PROJECT HEADER -->
+      <div class="project-header">
+        <div class="project-number">03</div>
+        <div>
+          <h2>SALES PERFORMANCE DASHBOARD</h2>
+          <h3>POWER BI – BUSINESS INTELLIGENCE</h3>
+        </div>
+      </div>
+
+      <!-- PROJECT CONTENT -->
+      <div class="project-content">
+
+        <!-- IMAGES -->
+        <div class="project-images">
+          <img src="assets/powerbi-dashboard-1.png" alt="Power BI Dashboard Overview">
+          <img src="assets/powerbi-dashboard-2.png" alt="Power BI Sales Map">
+        </div>
+
+        <!-- DESCRIPTION -->
+        <div class="project-desc">
+          <p>
+            Built an end-to-end <span>Power BI Sales Performance Dashboard</span> to
+            analyze revenue, profit, and regional growth. The dashboard enables
+            stakeholders to identify <span>high-performing regions</span>,
+            <span>sales trends</span>, and <span>profitability drivers</span>.
+          </p>
+
+          <p>
+            Implemented dynamic KPIs, time intelligence using DAX, and interactive
+            drill-downs to support <span>data-driven business decisions</span>.
+          </p>
+
+          <p class="tools">
+            <strong>Tools:</strong> Power BI, DAX, SQL<br>
+            <strong>Analysis:</strong> KPI Analysis, Trend Analysis, Regional Performance
+          </p>
+
+          <!-- BUTTONS -->
+          <div class="project-buttons">
+            <a href="#" class="btn-outline">Power BI Dashboard</a>
+            <a href="#" class="btn-outline">Dataset</a>
+            <a href="#" class="btn-outline">Case Study</a>
           </div>
-          <div>
-            <h4>Bank Tabungan Negara (BTN)</h4>
-            <p>Loan Monitoring & Restructuring Analyst</p>
-            <p>Commercial Asset Management Analyst</p>
-            <p>Commercial Loan Analyst</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+
+    <div class="contact-container">
+
+      <!-- TOP PILL -->
+      <div class="contact-pill">Contact Info</div>
+
+      <div class="contact-grid">
+
+        <!-- LEFT CONTACT DETAILS -->
+        <div class="contact-details">
+
+          <!-- WhatsApp -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="2489" height="2500" viewBox="0 0 737.509 740.824"
+                id="whatsapp">
+                <path fill-rule="evenodd"
+                  d="M630.056 107.658C560.727 38.271 468.525.039 370.294 0 167.891 0 3.16 164.668 3.079 367.072c-.027 64.699 16.883 127.855 49.016 183.523L0 740.824l194.666-51.047c53.634 29.244 114.022 44.656 175.481 44.682h.151c202.382 0 367.128-164.689 367.21-367.094.039-98.088-38.121-190.32-107.452-259.707m-259.758 564.8h-.125c-54.766-.021-108.483-14.729-155.343-42.529l-11.146-6.613-115.516 30.293 30.834-112.592-7.258-11.543c-30.552-48.58-46.689-104.729-46.665-162.379C65.146 198.865 202.065 62 370.419 62c81.521.031 158.154 31.81 215.779 89.482s89.342 134.332 89.311 215.859c-.07 168.242-136.987 305.117-305.211 305.117m167.415-228.514c-9.176-4.591-54.286-26.782-62.697-29.843-8.41-3.061-14.526-4.591-20.644 4.592-6.116 9.182-23.7 29.843-29.054 35.964-5.351 6.122-10.703 6.888-19.879 2.296-9.175-4.591-38.739-14.276-73.786-45.526-27.275-24.32-45.691-54.36-51.043-63.542-5.352-9.183-.569-14.148 4.024-18.72 4.127-4.11 9.175-10.713 13.763-16.07 4.587-5.356 6.116-9.182 9.174-15.303 3.059-6.122 1.53-11.479-.764-16.07-2.294-4.591-20.643-49.739-28.29-68.104-7.447-17.886-15.012-15.466-20.644-15.746-5.346-.266-11.469-.323-17.585-.323-6.117 0-16.057 2.296-24.468 11.478-8.41 9.183-32.112 31.374-32.112 76.521s32.877 88.763 37.465 94.885c4.587 6.122 64.699 98.771 156.741 138.502 21.891 9.45 38.982 15.093 52.307 19.323 21.981 6.979 41.983 5.994 57.793 3.633 17.628-2.633 54.285-22.19 61.932-43.616 7.646-21.426 7.646-39.791 5.352-43.617-2.293-3.826-8.41-6.122-17.585-10.714"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </div>
+
+
+            <div>
+              <p class="label">Phone (WhatsApp)</p>
+              <a href="https://wa.me/923452469969" target="_blank" rel="noopener">
+                +92 345 2469969
+              </a>
+            </div>
           </div>
+
+          <!-- Email -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="email">
+                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                <path
+                  d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z">
+                </path>
+              </svg>
+            </div>
+            <div>
+              <p class="label">E-mail</p>
+              <a href="mailto:abdullahkaashif0@gmail.com">
+                abdullahkaashif0@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M4 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM2 8h4v14H2zM8 8h4v2h.06c.56-1 1.94-2.06 4-2.06 4.28 0 5.06 2.82 5.06 6.48V22h-4v-6.6c0-1.58-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.48V22H8z" />
+              </svg>
+            </div>
+            <div>
+              <p class="label">LinkedIn</p>
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">
+                https://www.linkedin.com/feed/
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT TEXT -->
+        <div class="contact-text">
+          <h2>
+            Let’s <span>connect</span> and<br>
+            <span>work together!</span>
+          </h2>
         </div>
 
       </div>
 
     </div>
-  </div>
-</section>
+
+  </section>
 
 
 
-<!-- PROJECTS -->
-
-
-<!-- PROJECTS SECTION -->
-<section class="projects-section">
-
-  <!-- TOP PILL -->
-  <div class="projects-pill">Notable Projects</div>
-
-  <!-- PROJECT CARD -->
-  <div class="project-card">
-
-    <!-- PROJECT HEADER -->
-    <div class="project-header">
-      <div class="project-number">01</div>
-      <div>
-        <h2>SALES PERFORMANCE DASHBOARD</h2>
-        <h3>POWER BI – BUSINESS INTELLIGENCE</h3>
-      </div>
-    </div>
-
-    <!-- PROJECT CONTENT -->
-    <div class="project-content">
-
-      <!-- IMAGES -->
-      <div class="project-images">
-        <img src="assets/powerbi-dashboard-1.png" alt="Power BI Dashboard Overview">
-        <img src="assets/powerbi-dashboard-2.png" alt="Power BI Sales Map">
-      </div>
-
-      <!-- DESCRIPTION -->
-      <div class="project-desc">
-        <p>
-          Built an end-to-end <span>Power BI Sales Performance Dashboard</span> to
-          analyze revenue, profit, and regional growth. The dashboard enables
-          stakeholders to identify <span>high-performing regions</span>,
-          <span>sales trends</span>, and <span>profitability drivers</span>.
-        </p>
-
-        <p>
-          Implemented dynamic KPIs, time intelligence using DAX, and interactive
-          drill-downs to support <span>data-driven business decisions</span>.
-        </p>
-
-        <p class="tools">
-          <strong>Tools:</strong> Power BI, DAX, SQL<br>
-          <strong>Analysis:</strong> KPI Analysis, Trend Analysis, Regional Performance
-        </p>
-
-        <!-- BUTTONS -->
-        <div class="project-buttons">
-          <a href="#" class="btn-outline">Power BI Dashboard</a>
-          <a href="#" class="btn-outline">Dataset</a>
-          <a href="#" class="btn-outline">Case Study</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- PROJECT CARD -->
-  <div class="project-card">
-
-    <div class="project-header">
-      <div class="project-number">02</div>
-      <div>
-        <h2>LEAD AUTOMATION WORKFLOW</h2>
-        <h3>N8N – BUSINESS PROCESS AUTOMATION</h3>
-      </div>
-    </div>
-
-    <div class="project-content">
-
-      <div class="project-images">
-        <img src="assets/n8n-workflow.png" alt="n8n Automation Workflow">
-        <img src="assets/n8n-flow-diagram.png" alt="n8n Process Diagram">
-      </div>
-
-      <div class="project-desc">
-        <p>
-          Designed an <span>end-to-end automation workflow</span> using n8n to
-          capture incoming leads via webhook, validate data, store records in
-          Google Sheets, and send automated email notifications.
-        </p>
-
-        <p>
-          This automation reduced <span>manual processing time</span> and improved
-          data accuracy while enabling <span>real-time lead tracking</span>.
-        </p>
-
-        <p class="tools">
-          <strong>Tools:</strong> n8n, Webhooks, Google Sheets, Gmail API<br>
-          <strong>Automation:</strong> Data Validation, Notifications, Workflow Orchestration
-        </p>
-
-        <div class="project-buttons">
-          <a href="#" class="btn-outline">Workflow Diagram</a>
-          <a href="#" class="btn-outline">GitHub (JSON)</a>
-          <a href="#" class="btn-outline">Demo Video</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="project-card">
-
-    <!-- PROJECT HEADER -->
-    <div class="project-header">
-      <div class="project-number">03</div>
-      <div>
-        <h2>SALES PERFORMANCE DASHBOARD</h2>
-        <h3>POWER BI – BUSINESS INTELLIGENCE</h3>
-      </div>
-    </div>
-
-    <!-- PROJECT CONTENT -->
-    <div class="project-content">
-
-      <!-- IMAGES -->
-      <div class="project-images">
-        <img src="assets/powerbi-dashboard-1.png" alt="Power BI Dashboard Overview">
-        <img src="assets/powerbi-dashboard-2.png" alt="Power BI Sales Map">
-      </div>
-
-      <!-- DESCRIPTION -->
-      <div class="project-desc">
-        <p>
-          Built an end-to-end <span>Power BI Sales Performance Dashboard</span> to
-          analyze revenue, profit, and regional growth. The dashboard enables
-          stakeholders to identify <span>high-performing regions</span>,
-          <span>sales trends</span>, and <span>profitability drivers</span>.
-        </p>
-
-        <p>
-          Implemented dynamic KPIs, time intelligence using DAX, and interactive
-          drill-downs to support <span>data-driven business decisions</span>.
-        </p>
-
-        <p class="tools">
-          <strong>Tools:</strong> Power BI, DAX, SQL<br>
-          <strong>Analysis:</strong> KPI Analysis, Trend Analysis, Regional Performance
-        </p>
-
-        <!-- BUTTONS -->
-        <div class="project-buttons">
-          <a href="#" class="btn-outline">Power BI Dashboard</a>
-          <a href="#" class="btn-outline">Dataset</a>
-          <a href="#" class="btn-outline">Case Study</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</section>
-
-<!-- testing -->
-
-<script src="app.js"></script>
+  <script src="app.js"></script>
 
 </body>
 
