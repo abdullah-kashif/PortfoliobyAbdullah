@@ -306,7 +306,7 @@ body {
 @media (max-width: 360px) {
 
     .section_1 {
-        padding: 0px 14px;     /* reduce side pressure */
+        padding: 110px 14px;     /* reduce side pressure */
         gap: 28px;             /* prevent huge spacing */
     }
 
