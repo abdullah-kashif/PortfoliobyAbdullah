@@ -8,3 +8,12 @@
       }, 300);
     });
   });
+
+
+const burger = document.querySelector(".burger");
+const nav = document.querySelector(".nav_ul");
+
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active");
+  nav.classList.toggle("show");
+});
