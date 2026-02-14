@@ -166,7 +166,8 @@ body {
 /* INTRO SECTION */
 .section_1 {
     min-height: 80vh;
-    padding: 80px 120px;
+    /* padding: 80px 120px; */
+    padding: 120px 120px 80px;
     display: flex;
     justify-content: center;
     align-items: center;
