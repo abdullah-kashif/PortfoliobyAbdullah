@@ -166,19 +166,18 @@ body {
 /* INTRO SECTION */
 .section_1 {
     min-height: 80vh;
-    /* padding: 80px 120px; */
-    padding: 120px 120px 80px;
+    padding: 120px 120px 80px;   /* 🔥 TOP PADDING ADDED */
     display: flex;
     justify-content: center;
     align-items: center;
-
-    gap: 400px;   /* desktop unchanged */
+    gap: 400px;
 
     background: radial-gradient(circle at top, #05053d, #020024 70%);
     color: #fff;
 
     animation: fadeIn 1s ease;
 }
+
 
 /* LEFT */
 .hero-left {
@@ -284,7 +283,7 @@ body {
     .section_1 {
         flex-direction: column;
         text-align: center;
-        padding: 0px 20px;
+        padding: 90px 20px 40px;   /* 🔥 TOP SPACE FIX */
         gap: 40px;
     }
 
