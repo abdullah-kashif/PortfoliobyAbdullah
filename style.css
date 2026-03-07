@@ -1016,7 +1016,7 @@ body {
 /* IMAGES */
 .project-images {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 16px;
 }
 
@@ -1024,14 +1024,12 @@ body {
     width: 100%;
     border-radius: 8px;
     border: 1px solid rgba(255,255,255,0.15);
-
     transition: transform 0.3s ease;
 }
 
 .project-images img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
-
 /* DESCRIPTION */
 .project-desc p {
     font-size: 16px;
